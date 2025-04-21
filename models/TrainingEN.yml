@@ -1,0 +1,17 @@
+unique_name: TrainingEN
+object_type: model
+label: TrainingEN
+metrics:
+  - unique_name: m_factinternetsales_salesamount_sum
+    folder: Sale Metrics
+  - unique_name: m_factinternetsales_salesamount_avg
+    folder: Sales Metric
+  - unique_name: m_factinternetsales_orderquantity_sum
+    folder: Sales Metric
+  - unique_name: m_factinternetsales_taxamt_sum
+    folder: Sales Metrics
+  - unique_name: m_factinternetsales_customerkey_dc
+    folder: Customer Metrics
+  - unique_name: m_factinternetsales_customerkey_dce
+    folder: Customer Metrics
+relationships: []
