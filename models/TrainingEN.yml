@@ -14,4 +14,11 @@ metrics:
     folder: Customer Metrics
   - unique_name: m_factinternetsales_customerkey_dce
     folder: Customer Metrics
-relationships: []
+relationships:
+  - unique_name: empty_dataset_dim_date_day_dimension
+    from:
+      dataset: ''
+      join_columns: []
+    to:
+      dimension: dim_date_day_dimension
+      level: ''
