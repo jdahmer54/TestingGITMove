@@ -1,6 +1,6 @@
-unique_name: TrainingEN
+unique_name: TrainingEN1
 object_type: model
-label: TrainingEN
+label: TrainingEN1
 metrics:
   - unique_name: m_factinternetsales_salesamount_sum
     folder: Sale Metrics
@@ -15,10 +15,13 @@ metrics:
   - unique_name: m_factinternetsales_customerkey_dce
     folder: Customer Metrics
 relationships:
-  - unique_name: empty_dataset_dim_date_day_dimension
+  - unique_name: >-
+      factinternetsales_orderdatekey_to_dim_date_day_dimension_dim_date_day_dimension
+      Level
     from:
-      dataset: ''
-      join_columns: []
+      dataset: factinternetsales
+      join_columns:
+        - orderdatekey
     to:
       dimension: dim_date_day_dimension
-      level: ''
+      level: dim_date_day_dimension Level
