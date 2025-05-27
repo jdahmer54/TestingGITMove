@@ -14,6 +14,7 @@ metrics:
     folder: Customer Metrics
   - unique_name: m_factinternetsales_customerkey_dce
     folder: Customer Metrics
+  - unique_name: m_factinternetsales_sales_reasons_non-null
 relationships:
   - unique_name: >-
       factinternetsales_orderdatekey_to_dim_date_day_dimension_dim_date_day_dimension
